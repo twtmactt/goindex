@@ -2,13 +2,13 @@
 
 var authConfig = {
     "siteName": "Nowhere", // 网站名称
-    "root_pass": "123456",  // 根目录密码，优先于.password
+    "root_pass": "",  // 根目录密码，优先于.password
     "version" : "1.0.6", // 程序版本
-    "theme" : "classic", // material  classic 
+    "theme" : "material", // material  classic 
     "client_id": "",
     "client_secret": "",
     "refresh_token": "", // 授权 token
-    "root": "root" // 根目录ID
+    "root": "" // 根目录ID
 };
 
 var gd;
